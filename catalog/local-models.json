@@ -1,0 +1,850 @@
+{
+  "schemaVersion": 1,
+  "coding": [
+    {
+      "id": "ornith-9b",
+      "name": "Ornith 1.0 9B",
+      "description": "DeepReinforce agentic coding model — strong tool-use and multi-step coding.",
+      "tag": "hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q4_K_M",
+      "quantization": "Q4_K_M",
+      "sizeGb": 5.8,
+      "minRamGb": 12,
+      "tiers": [
+        "medium",
+        "dev",
+        "high"
+      ],
+      "category": "code"
+    },
+    {
+      "id": "qwen-coder-1.5b",
+      "name": "Qwen2.5 Coder 1.5B",
+      "description": "Lightweight coding model for quick UI scaffolds on 8GB RAM.",
+      "tag": "qwen2.5-coder:1.5b",
+      "quantization": "Q4",
+      "sizeGb": 1.1,
+      "minRamGb": 8,
+      "tiers": [
+        "low",
+        "medium"
+      ],
+      "category": "code"
+    },
+    {
+      "id": "qwen-coder-7b",
+      "name": "Qwen2.5 Coder 7B",
+      "description": "Strong local coding model — recommended default for builds.",
+      "tag": "qwen2.5-coder:7b",
+      "quantization": "Q4",
+      "sizeGb": 4.7,
+      "minRamGb": 12,
+      "tiers": [
+        "medium",
+        "dev",
+        "high"
+      ],
+      "category": "code"
+    },
+    {
+      "id": "qwen-coder-14b",
+      "name": "Qwen2.5 Coder 14B",
+      "description": "Higher quality components, layouts, and interaction logic.",
+      "tag": "qwen2.5-coder:14b",
+      "quantization": "Q4",
+      "sizeGb": 9,
+      "minRamGb": 16,
+      "tiers": [
+        "dev",
+        "high"
+      ],
+      "category": "code"
+    },
+    {
+      "id": "deepseek-coder-6.7b",
+      "name": "DeepSeek Coder 6.7B",
+      "description": "Efficient code model with solid React/TypeScript output.",
+      "tag": "deepseek-coder:6.7b",
+      "quantization": "Q4",
+      "sizeGb": 4,
+      "minRamGb": 12,
+      "tiers": [
+        "medium",
+        "dev"
+      ],
+      "category": "code"
+    },
+    {
+      "id": "deepseek-coder-v2",
+      "name": "DeepSeek Coder V2 16B",
+      "description": "High-end local coding model for complex apps.",
+      "tag": "deepseek-coder-v2:16b",
+      "quantization": "Q4",
+      "sizeGb": 9,
+      "minRamGb": 24,
+      "tiers": [
+        "high"
+      ],
+      "category": "code"
+    },
+    {
+      "id": "codellama-7b",
+      "name": "Code Llama 7B Instruct",
+      "description": "Meta code model — reliable for structured React components.",
+      "tag": "codellama:7b-instruct",
+      "quantization": "Q4",
+      "sizeGb": 4.1,
+      "minRamGb": 12,
+      "tiers": [
+        "medium",
+        "dev"
+      ],
+      "category": "code"
+    },
+    {
+      "id": "starcoder2-15b",
+      "name": "StarCoder2 15B",
+      "description": "Multi-language code model with strong TypeScript support.",
+      "tag": "starcoder2:15b",
+      "quantization": "Q4",
+      "sizeGb": 9,
+      "minRamGb": 20,
+      "tiers": [
+        "dev",
+        "high"
+      ],
+      "category": "code"
+    },
+    {
+      "id": "granite-code-8b",
+      "name": "Granite Code 8B",
+      "description": "IBM enterprise-grade coding model for clean, readable UI code.",
+      "tag": "granite-code:8b",
+      "quantization": "Q4",
+      "sizeGb": 4.8,
+      "minRamGb": 16,
+      "tiers": [
+        "dev",
+        "high"
+      ],
+      "category": "code"
+    },
+    {
+      "id": "codegemma-7b",
+      "name": "CodeGemma 7B",
+      "description": "Google Gemma family model specialized for code completion.",
+      "tag": "codegemma:7b",
+      "quantization": "Q4",
+      "sizeGb": 5,
+      "minRamGb": 12,
+      "tiers": [
+        "medium",
+        "dev"
+      ],
+      "category": "code"
+    },
+    {
+      "id": "qwen25-coder-32b",
+      "name": "Qwen2.5 Coder 32B",
+      "description": "Top-tier local coder for complex multi-file apps and review.",
+      "tag": "qwen2.5-coder:32b",
+      "quantization": "Q4",
+      "sizeGb": 20,
+      "minRamGb": 32,
+      "tiers": [
+        "high"
+      ],
+      "category": "code",
+      "hwClass": "great",
+      "runnable": true,
+      "paramsB": 32,
+      "contextK": 128,
+      "bestFor": "Highest-quality local code generation & review",
+      "recommendedRoles": [
+        "coder",
+        "architect",
+        "codeReview"
+      ]
+    },
+    {
+      "id": "qwen3-coder-30b",
+      "name": "Qwen3 Coder 30B A3B",
+      "description": "MoE coder (3B active) — fast, high-quality, iterative builds.",
+      "tag": "qwen3-coder:30b",
+      "quantization": "Q4",
+      "sizeGb": 18,
+      "minRamGb": 24,
+      "tiers": [
+        "dev",
+        "high"
+      ],
+      "category": "code",
+      "hwClass": "good",
+      "runnable": true,
+      "paramsB": 30,
+      "contextK": 262,
+      "bestFor": "Best balance of speed and quality on a single GPU",
+      "recommendedRoles": [
+        "coder",
+        "frontend",
+        "backend"
+      ]
+    },
+    {
+      "id": "devstral-24b",
+      "name": "Devstral Small 24B",
+      "description": "Agent-scaffold specialist — repo exploration & multi-file edits.",
+      "tag": "devstral",
+      "quantization": "Q4",
+      "sizeGb": 14,
+      "minRamGb": 24,
+      "tiers": [
+        "dev",
+        "high"
+      ],
+      "category": "code",
+      "hwClass": "good",
+      "runnable": true,
+      "paramsB": 24,
+      "contextK": 128,
+      "bestFor": "Autonomous agent scaffolds & tool use",
+      "recommendedRoles": [
+        "coder",
+        "debugging",
+        "devops"
+      ]
+    },
+    {
+      "id": "gpt-oss-20b",
+      "name": "GPT-OSS 20B",
+      "description": "OpenAI open-weights — frontier-tier tool calling, configurable reasoning.",
+      "tag": "gpt-oss:20b",
+      "quantization": "MXFP4",
+      "sizeGb": 13,
+      "minRamGb": 16,
+      "tiers": [
+        "dev",
+        "high"
+      ],
+      "category": "code",
+      "hwClass": "good",
+      "runnable": true,
+      "paramsB": 21,
+      "contextK": 131,
+      "bestFor": "Reliable tool calling & planning",
+      "recommendedRoles": [
+        "orchestrator",
+        "architect",
+        "coder"
+      ]
+    },
+    {
+      "id": "deepseek-r1-32b",
+      "name": "DeepSeek R1 Distill 32B",
+      "description": "Step-by-step reasoning — algorithmic & logic-heavy work.",
+      "tag": "deepseek-r1:32b",
+      "quantization": "Q4",
+      "sizeGb": 20,
+      "minRamGb": 24,
+      "tiers": [
+        "high"
+      ],
+      "category": "code",
+      "hwClass": "great",
+      "runnable": true,
+      "paramsB": 32,
+      "contextK": 128,
+      "bestFor": "Mathematical / algorithmic reasoning",
+      "recommendedRoles": [
+        "architect",
+        "codeReview",
+        "debugging"
+      ]
+    },
+    {
+      "id": "codestral-22b",
+      "name": "Codestral 22B",
+      "description": "Mistral fill-in-the-middle specialist — low-latency completions.",
+      "tag": "codestral",
+      "quantization": "Q4",
+      "sizeGb": 13,
+      "minRamGb": 16,
+      "tiers": [
+        "dev",
+        "high"
+      ],
+      "category": "code",
+      "hwClass": "good",
+      "runnable": true,
+      "paramsB": 22,
+      "contextK": 32,
+      "bestFor": "Fast code completion (FIM)",
+      "recommendedRoles": [
+        "frontend",
+        "coder"
+      ]
+    },
+    {
+      "id": "qwen3-coder-480b",
+      "name": "Qwen3 Coder 480B",
+      "description": "Frontier agentic coder. Multi-GPU (~250GB VRAM) or cloud only.",
+      "tag": "qwen3-coder:480b",
+      "quantization": "Q4",
+      "sizeGb": 250,
+      "minRamGb": 256,
+      "tiers": [
+        "high"
+      ],
+      "category": "code",
+      "hwClass": "great",
+      "runnable": false,
+      "note": "Requires multi-GPU (~250GB VRAM) or cloud",
+      "paramsB": 480,
+      "contextK": 1000,
+      "bestFor": "Frontier repository-scale generation",
+      "recommendedRoles": [
+        "architect",
+        "coder"
+      ]
+    },
+    {
+      "id": "kimi-k2",
+      "name": "Kimi K2.6",
+      "description": "1.1T MoE with agent-swarm orchestration. 128GB+ RAM or cloud.",
+      "tag": "kimi-k2",
+      "quantization": "Q4",
+      "sizeGb": 600,
+      "minRamGb": 128,
+      "tiers": [
+        "high"
+      ],
+      "category": "code",
+      "hwClass": "great",
+      "runnable": false,
+      "note": "Requires 128GB+ RAM / high-end rig or cloud",
+      "paramsB": 1100,
+      "contextK": 256,
+      "bestFor": "Parallel multi-agent swarm builds",
+      "recommendedRoles": [
+        "orchestrator"
+      ]
+    },
+    {
+      "id": "glm-5",
+      "name": "GLM-5.1",
+      "description": "754B MoE for long-horizon autonomous repo generation. Multi-GPU/cloud.",
+      "tag": "glm-5.1",
+      "quantization": "Q4",
+      "sizeGb": 400,
+      "minRamGb": 128,
+      "tiers": [
+        "high"
+      ],
+      "category": "code",
+      "hwClass": "great",
+      "runnable": false,
+      "note": "Requires multi-GPU / high RAM or cloud",
+      "paramsB": 754,
+      "contextK": 200,
+      "bestFor": "Long-horizon autonomous builds",
+      "recommendedRoles": [
+        "orchestrator",
+        "architect"
+      ]
+    },
+    {
+      "id": "deepseek-r1-671b",
+      "name": "DeepSeek R1 671B",
+      "description": "Extreme reasoning powerhouse. KTransformers / multi-GPU or cloud.",
+      "tag": "deepseek-r1:671b",
+      "quantization": "Q4",
+      "sizeGb": 400,
+      "minRamGb": 180,
+      "tiers": [
+        "high"
+      ],
+      "category": "code",
+      "hwClass": "great",
+      "runnable": false,
+      "note": "Requires 180GB+ (RAM+VRAM) / KTransformers or cloud",
+      "paramsB": 671,
+      "contextK": 128,
+      "bestFor": "Hardest algorithmic reasoning",
+      "recommendedRoles": [
+        "architect",
+        "codeReview"
+      ]
+    }
+  ],
+  "designer": [
+    {
+      "id": "llama32-3b",
+      "name": "Llama 3.2 3B",
+      "description": "Lightweight general model — great for UI layout and design specs on 8GB RAM.",
+      "tag": "llama3.2:3b",
+      "quantization": "Q4",
+      "sizeGb": 2,
+      "minRamGb": 8,
+      "tiers": [
+        "low",
+        "medium",
+        "dev",
+        "high"
+      ],
+      "category": "creative"
+    },
+    {
+      "id": "llama32-1b",
+      "name": "Llama 3.2 1B",
+      "description": "Tiny designer model when disk/RAM is tight.",
+      "tag": "llama3.2:1b",
+      "quantization": "Q4",
+      "sizeGb": 1.3,
+      "minRamGb": 8,
+      "tiers": [
+        "low",
+        "medium"
+      ],
+      "category": "creative"
+    },
+    {
+      "id": "gemma2-2b",
+      "name": "Gemma 2 2B",
+      "description": "Google general model — good aesthetic and copy for design planning.",
+      "tag": "gemma2:2b",
+      "quantization": "Q4",
+      "sizeGb": 1.6,
+      "minRamGb": 8,
+      "tiers": [
+        "low",
+        "medium",
+        "dev"
+      ],
+      "category": "creative"
+    },
+    {
+      "id": "mistral-7b",
+      "name": "Mistral 7B",
+      "description": "Strong general model for detailed UI/UX design specs.",
+      "tag": "mistral:7b",
+      "quantization": "Q4",
+      "sizeGb": 4.1,
+      "minRamGb": 12,
+      "tiers": [
+        "medium",
+        "dev",
+        "high"
+      ],
+      "category": "general"
+    },
+    {
+      "id": "phi3-mini",
+      "name": "Phi-3 Mini",
+      "description": "Efficient Microsoft model for structured design briefs.",
+      "tag": "phi3:mini",
+      "quantization": "Q4",
+      "sizeGb": 2.3,
+      "minRamGb": 8,
+      "tiers": [
+        "low",
+        "medium",
+        "dev"
+      ],
+      "category": "general"
+    },
+    {
+      "id": "qwen25-3b",
+      "name": "Qwen2.5 3B",
+      "description": "General Qwen model — usable for design when no creative model is installed.",
+      "tag": "qwen2.5:3b",
+      "quantization": "Q4",
+      "sizeGb": 2,
+      "minRamGb": 8,
+      "tiers": [
+        "low",
+        "medium",
+        "dev"
+      ],
+      "category": "general"
+    },
+    {
+      "id": "llama31-8b",
+      "name": "Llama 3.1 8B",
+      "description": "General orchestration & reasoning — great for requirements and planning.",
+      "tag": "llama3.1:8b",
+      "quantization": "Q4",
+      "sizeGb": 4.7,
+      "minRamGb": 12,
+      "tiers": [
+        "medium",
+        "dev",
+        "high"
+      ],
+      "category": "general",
+      "hwClass": "balanced",
+      "runnable": true,
+      "paramsB": 8,
+      "contextK": 128,
+      "bestFor": "Orchestration, requirements, documentation",
+      "recommendedRoles": [
+        "orchestrator",
+        "requirements",
+        "documentation",
+        "memory"
+      ]
+    },
+    {
+      "id": "qwen25-7b",
+      "name": "Qwen2.5 7B",
+      "description": "Balanced general model for routing, specs, and context tracking.",
+      "tag": "qwen2.5:7b",
+      "quantization": "Q4",
+      "sizeGb": 4.7,
+      "minRamGb": 12,
+      "tiers": [
+        "medium",
+        "dev",
+        "high"
+      ],
+      "category": "general",
+      "hwClass": "balanced",
+      "runnable": true,
+      "paramsB": 7,
+      "contextK": 128,
+      "bestFor": "Routing & structured specs",
+      "recommendedRoles": [
+        "requirements",
+        "memory",
+        "orchestrator"
+      ]
+    },
+    {
+      "id": "gemma3-4b",
+      "name": "Gemma 3 4B",
+      "description": "Google's compact multimodal model — fast UI/design planning on 8GB.",
+      "tag": "gemma3:4b",
+      "quantization": "Q4",
+      "sizeGb": 3.3,
+      "minRamGb": 8,
+      "tiers": [
+        "low",
+        "medium",
+        "dev",
+        "high"
+      ],
+      "category": "creative",
+      "hwClass": "balanced",
+      "runnable": true,
+      "paramsB": 4,
+      "contextK": 128,
+      "bestFor": "Fast design specs + image understanding",
+      "recommendedRoles": [
+        "uxDesign",
+        "designer"
+      ]
+    },
+    {
+      "id": "gemma3-1b",
+      "name": "Gemma 3 1B",
+      "description": "Tiny Gemma 3 for low-RAM design planning.",
+      "tag": "gemma3:1b",
+      "quantization": "Q4",
+      "sizeGb": 0.9,
+      "minRamGb": 8,
+      "tiers": [
+        "low",
+        "medium"
+      ],
+      "category": "creative",
+      "hwClass": "balanced",
+      "runnable": true,
+      "paramsB": 1,
+      "contextK": 32,
+      "bestFor": "Minimal-footprint design planning",
+      "recommendedRoles": [
+        "uxDesign",
+        "designer"
+      ]
+    },
+    {
+      "id": "gemma3-12b",
+      "name": "Gemma 3 12B",
+      "description": "Google's efficient multimodal model — UI understanding on a laptop.",
+      "tag": "gemma3:12b",
+      "quantization": "Q4",
+      "sizeGb": 8,
+      "minRamGb": 16,
+      "tiers": [
+        "dev",
+        "high"
+      ],
+      "category": "creative",
+      "hwClass": "good",
+      "runnable": true,
+      "paramsB": 12,
+      "contextK": 128,
+      "bestFor": "Visual UI understanding & design specs",
+      "recommendedRoles": [
+        "uxDesign",
+        "designer"
+      ]
+    },
+    {
+      "id": "gemma4-e2b",
+      "name": "Gemma 4 E2B",
+      "description": "Smallest Gemma 4 — multimodal design planning on edge/low-RAM machines.",
+      "tag": "gemma4:e2b",
+      "quantization": "Q4",
+      "sizeGb": 7.2,
+      "minRamGb": 8,
+      "tiers": [
+        "low",
+        "medium",
+        "dev",
+        "high"
+      ],
+      "category": "creative",
+      "hwClass": "balanced",
+      "runnable": true,
+      "paramsB": 2,
+      "contextK": 128,
+      "bestFor": "On-device multimodal design specs (text + image)",
+      "recommendedRoles": [
+        "uxDesign",
+        "designer"
+      ]
+    },
+    {
+      "id": "gemma4-e4b",
+      "name": "Gemma 4 E4B",
+      "description": "Default Gemma 4 — balanced multimodal model for most developer laptops.",
+      "tag": "gemma4:e4b",
+      "quantization": "Q4",
+      "sizeGb": 9.6,
+      "minRamGb": 8,
+      "tiers": [
+        "low",
+        "medium",
+        "dev",
+        "high"
+      ],
+      "category": "creative",
+      "hwClass": "balanced",
+      "runnable": true,
+      "paramsB": 4,
+      "contextK": 128,
+      "bestFor": "Everyday multimodal UI/design planning",
+      "recommendedRoles": [
+        "uxDesign",
+        "designer"
+      ]
+    },
+    {
+      "id": "gemma4-12b",
+      "name": "Gemma 4 12B Unified",
+      "description": "Encoder-free unified multimodal model with a 256K context window.",
+      "tag": "gemma4:12b",
+      "quantization": "Q4",
+      "sizeGb": 7.6,
+      "minRamGb": 16,
+      "tiers": [
+        "dev",
+        "high"
+      ],
+      "category": "creative",
+      "hwClass": "good",
+      "runnable": true,
+      "paramsB": 12,
+      "contextK": 256,
+      "bestFor": "Long-context visual UI understanding (256K)",
+      "recommendedRoles": [
+        "uxDesign",
+        "designer"
+      ]
+    },
+    {
+      "id": "gemma4-26b",
+      "name": "Gemma 4 26B (MoE)",
+      "description": "High-throughput multimodal MoE (~4B active) — fits a 24GB GPU comfortably.",
+      "tag": "gemma4:26b",
+      "quantization": "Q4",
+      "sizeGb": 18,
+      "minRamGb": 32,
+      "tiers": [
+        "high"
+      ],
+      "category": "creative",
+      "hwClass": "great",
+      "runnable": true,
+      "note": "Needs a 24GB+ GPU or 32GB+ unified memory",
+      "paramsB": 26,
+      "contextK": 256,
+      "bestFor": "Fast, advanced multimodal reasoning",
+      "recommendedRoles": [
+        "uxDesign",
+        "designer",
+        "architect"
+      ]
+    },
+    {
+      "id": "gemma4-31b",
+      "name": "Gemma 4 31B Dense",
+      "description": "Workstation flagship — highest-quality local Gemma 4 multimodal output.",
+      "tag": "gemma4:31b",
+      "quantization": "Q4",
+      "sizeGb": 20,
+      "minRamGb": 32,
+      "tiers": [
+        "high"
+      ],
+      "category": "creative",
+      "hwClass": "great",
+      "runnable": true,
+      "note": "Needs an RTX 4090-class GPU or 64GB unified memory",
+      "paramsB": 31,
+      "contextK": 256,
+      "bestFor": "Top-quality visual-to-design on a workstation",
+      "recommendedRoles": [
+        "uxDesign",
+        "designer",
+        "architect"
+      ]
+    },
+    {
+      "id": "llava-7b",
+      "name": "LLaVA 7B (vision)",
+      "description": "Reads screenshots/mockups and describes UI for design specs.",
+      "tag": "llava:7b",
+      "quantization": "Q4",
+      "sizeGb": 4.7,
+      "minRamGb": 12,
+      "tiers": [
+        "medium",
+        "dev",
+        "high"
+      ],
+      "category": "creative",
+      "hwClass": "balanced",
+      "runnable": true,
+      "paramsB": 7,
+      "contextK": 32,
+      "bestFor": "Image/mockup understanding → design spec",
+      "recommendedRoles": [
+        "uxDesign",
+        "designer"
+      ]
+    },
+    {
+      "id": "llama32-vision-11b",
+      "name": "Llama 3.2 Vision 11B",
+      "description": "Multimodal — converts UI screenshots and wireframes into design intent.",
+      "tag": "llama3.2-vision:11b",
+      "quantization": "Q4",
+      "sizeGb": 7.9,
+      "minRamGb": 16,
+      "tiers": [
+        "dev",
+        "high"
+      ],
+      "category": "creative",
+      "hwClass": "good",
+      "runnable": true,
+      "paramsB": 11,
+      "contextK": 128,
+      "bestFor": "Visual-to-code (screenshot → layout)",
+      "recommendedRoles": [
+        "uxDesign",
+        "designer"
+      ]
+    },
+    {
+      "id": "phi4-14b",
+      "name": "Phi-4 14B",
+      "description": "Microsoft model — strong reasoning in a small footprint.",
+      "tag": "phi4",
+      "quantization": "Q4",
+      "sizeGb": 9,
+      "minRamGb": 16,
+      "tiers": [
+        "dev",
+        "high"
+      ],
+      "category": "general",
+      "hwClass": "good",
+      "runnable": true,
+      "paramsB": 14,
+      "contextK": 16,
+      "bestFor": "Compact reasoning for planning agents",
+      "recommendedRoles": [
+        "architect",
+        "requirements"
+      ]
+    },
+    {
+      "id": "mixtral-8x7b",
+      "name": "Mixtral 8x7B",
+      "description": "Fast, balanced MoE — good for routing and coordination.",
+      "tag": "mixtral:8x7b",
+      "quantization": "Q4",
+      "sizeGb": 26,
+      "minRamGb": 32,
+      "tiers": [
+        "high"
+      ],
+      "category": "general",
+      "hwClass": "great",
+      "runnable": true,
+      "paramsB": 47,
+      "contextK": 32,
+      "bestFor": "Fast routing & coordination",
+      "recommendedRoles": [
+        "orchestrator"
+      ]
+    },
+    {
+      "id": "llama4-scout",
+      "name": "Llama 4 Scout 17B",
+      "description": "Natively multimodal MoE with huge context — visual-to-code. Needs 64GB+.",
+      "tag": "llama4:scout",
+      "quantization": "Q4",
+      "sizeGb": 67,
+      "minRamGb": 64,
+      "tiers": [
+        "high"
+      ],
+      "category": "creative",
+      "hwClass": "great",
+      "runnable": true,
+      "note": "Large MoE — needs ~64GB unified memory",
+      "paramsB": 109,
+      "contextK": 10000,
+      "bestFor": "Visual mockup to code, huge-context planning",
+      "recommendedRoles": [
+        "uxDesign",
+        "architect"
+      ]
+    },
+    {
+      "id": "llama4-maverick",
+      "name": "Llama 4 Maverick",
+      "description": "400B multimodal MoE, 10M context. Multi-GPU / 80GB+ or cloud only.",
+      "tag": "llama4:maverick",
+      "quantization": "Q4",
+      "sizeGb": 240,
+      "minRamGb": 128,
+      "tiers": [
+        "high"
+      ],
+      "category": "creative",
+      "hwClass": "great",
+      "runnable": false,
+      "note": "Requires multi-GPU / 80GB+ or cloud",
+      "paramsB": 400,
+      "contextK": 10000,
+      "bestFor": "Frontier multimodal architecture & UI",
+      "recommendedRoles": [
+        "architect",
+        "uxDesign"
+      ]
+    }
+  ]
+}
