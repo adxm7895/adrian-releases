@@ -107,7 +107,7 @@ The desktop app is the free, local-first way in. [adrianlabs.io](https://adrianl
 
 Grab either one from the [**latest release**](https://github.com/adxm7895/adrian-releases/releases/latest):
 
-- **`Adrian-Windows.zip` — no install (recommended).** Unzip anywhere, open the `Adrian` folder, double-click `Adrian.exe`. No installer, no admin rights, no Program Files.
+- **`Adrian-Windows.zip` — no install (recommended).** Unzip anywhere, then double-click `Adrian.exe` inside the extracted folder. No installer, no admin rights, no Program Files.
 - **`Adrian-Setup` installer (`.exe`) — classic install.** Start-menu entry, desktop shortcut, uninstaller.
 
 > Windows SmartScreen may warn on a new publisher — click **More info → Run anyway**.
