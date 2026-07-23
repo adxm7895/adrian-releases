@@ -116,7 +116,7 @@ Grab either one from the [**latest release**](https://github.com/adxm7895/adrian
 **Verify your download** (recommended):
 
 ```powershell
-Get-FileHash .\Adrian-Setup-0.1.1.exe -Algorithm SHA256
+Get-FileHash .\Adrian-Setup.exe -Algorithm SHA256
 # or, for the portable zip:
 Get-FileHash .\Adrian-Windows.zip -Algorithm SHA256
 ```
