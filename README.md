@@ -107,8 +107,8 @@ The desktop app is the free, local-first way in. [adrianlabs.io](https://adrianl
 
 Grab either one from the [**latest release**](https://github.com/adxm7895/adrian-releases/releases/latest):
 
-- **`Adrian-Windows.zip` — no install (recommended).** Unzip anywhere, then double-click `Adrian.exe` inside the extracted folder. No installer, no admin rights, no Program Files.
-- **`Adrian-Setup` installer (`.exe`) — classic install.** Start-menu entry, desktop shortcut, uninstaller.
+- **`Adrian-Setup` installer (`.exe`) — recommended.** One install, Start-menu entry, desktop shortcut, uninstaller, **in-place auto-updates**. Prefer this so you don't end up with multiple unzipped copies.
+- **`Adrian-Windows.zip` — portable.** No admin. Unzip **once** to a fixed folder and reuse it — the zip does not auto-update, and each extra extract is a whole separate Adrian.
 
 > Windows SmartScreen may warn on a new publisher — click **More info → Run anyway**.
 > *(The build is currently unsigned; code signing is on the way. Until then, verify the checksum below.)*
@@ -116,6 +116,8 @@ Grab either one from the [**latest release**](https://github.com/adxm7895/adrian
 **Verify your download** (recommended):
 
 ```powershell
+Get-FileHash .\Adrian-Setup-0.1.1.exe -Algorithm SHA256
+# or, for the portable zip:
 Get-FileHash .\Adrian-Windows.zip -Algorithm SHA256
 ```
 
