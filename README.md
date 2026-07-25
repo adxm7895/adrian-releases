@@ -113,6 +113,8 @@ Grab either one from the [**latest release**](https://github.com/adxm7895/adrian
 > Windows SmartScreen may warn on a new publisher — click **More info → Run anyway**.
 > *(The build is currently unsigned; code signing is on the way. Until then, verify the checksum below.)*
 
+**Already on an earlier beta (zip)?** The portable zip does not update itself. Download the latest zip, extract it to the **same folder you used before** (or delete the old folder after moving to a new one), and use **Settings → About → Create desktop shortcut** inside Adrian if your shortcut points at the old copy. Your projects and settings are safe either way — they live in your user profile, not in the app folder. Better: install `Adrian-Setup.exe` once and future updates apply in place automatically.
+
 **Verify your download** (recommended):
 
 ```powershell
