@@ -3,18 +3,19 @@
   "coding": [
     {
       "id": "ornith-9b",
-      "name": "Ornith 1.0 9B",
-      "description": "DeepReinforce agentic coding model — strong tool-use and multi-step coding.",
-      "tag": "hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q4_K_M",
+      "name": "Ornith 1.5 9B",
+      "description": "Agentic coding model with vision and 256K context — strong tool-use and multi-step coding.",
+      "tag": "ornith-1.5:9b",
       "quantization": "Q4_K_M",
-      "sizeGb": 5.8,
+      "sizeGb": 6.6,
       "minRamGb": 12,
       "tiers": [
         "medium",
         "dev",
         "high"
       ],
-      "category": "code"
+      "category": "code",
+      "contextK": 256
     },
     {
       "id": "qwen-coder-1.5b",
