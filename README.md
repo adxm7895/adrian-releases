@@ -12,28 +12,36 @@
 <img src="https://img.shields.io/badge/Download_for_Windows-0a0a0a?style=for-the-badge" alt="Download Adrian for Windows" height="44"/>
 </a>
 
+<br/>
+
+<sub>Unsigned beta · Windows SmartScreen expected · SHA-256 on every release · code signing coming</sub>
+
 <br/><br/>
 
 [![Website](https://img.shields.io/badge/adrianlabs.io-111827?style=flat-square)](https://adrianlabs.io)
 [![Web launching soon](https://img.shields.io/badge/web-launching_soon-b45309?style=flat-square)](https://adrianlabs.io)
 [![Platform](https://img.shields.io/badge/Windows_10_and_11-0a0a0a?style=flat-square)](https://github.com/adxm7895/adrian-releases/releases/latest)
 [![Local and BYOK free forever](https://img.shields.io/badge/local_and_your_keys-free_forever-16a34a?style=flat-square)](#pricing-that-doesnt-punish-you)
+[![Discussions](https://img.shields.io/badge/Discussions-join-111827?style=flat-square)](https://github.com/adxm7895/adrian-releases/discussions)
 
-<!--
-  ▲ VIRAL MONEY-SHOT GOES HERE ▲
-  A repo lives or dies on the first thing people see. Record a 10-20s screen
-  capture of typing "build me a snake game" and the working app appearing,
-  save it as a .gif or .mp4, drag the file into this README on GitHub (it
-  uploads and gives you a user-images URL), then paste that URL below:
+<br/>
 
-  ![Adrian in action](PASTE_THE_UPLOADED_GIF_URL_HERE)
+<!-- DEMO SLOT (above the fold) — drop in the recorded clip; do not invent media.
+  Record 10–20s: type "build me a snake game" → plan/design/code → live preview.
+  Upload as .gif or .mp4 via GitHub (drag into README on github.com for a user-images URL), then replace the block below:
+
+  ![Adrian in action](PASTE_THE_UPLOADED_GIF_OR_MP4_URL_HERE)
 -->
+
+<p align="center">
+  <em>Demo clip coming soon — a 10–20s “one sentence → running app” capture belongs here.</em>
+</p>
 
 </div>
 
 ---
 
-> **Adrian is in beta.** It's brand new, so you may run into rough edges or bugs. If you do, please report them to **[info@adrianlabs.io](mailto:info@adrianlabs.io)** — every report goes straight to the people building Adrian and makes the next release better.
+> **Adrian is in beta.** It's brand new, so you may run into rough edges or bugs. Report them in [**Discussions**](https://github.com/adxm7895/adrian-releases/discussions) or email **[info@adrianlabs.io](mailto:info@adrianlabs.io)** — every report goes straight to the people building Adrian and makes the next release better.
 
 ## Type one sentence. Get a working app.
 
@@ -160,7 +168,8 @@ No — it's in **beta**. It works, but expect some rough edges, and please repor
 
 Adrian is in **beta** and built by a small team — your input genuinely shapes where it goes.
 
-- **🐛 Found a bug or something broken?** Email **[info@adrianlabs.io](mailto:info@adrianlabs.io)** with what you were doing and what happened. Beta reports go straight to the people building Adrian.
+- **💬 Questions, ideas, or builds to share?** Use [**GitHub Discussions**](https://github.com/adxm7895/adrian-releases/discussions) (Announcements, Q&A, Show and tell, Ideas).
+- **🐛 Found a bug or something broken?** Post in [Discussions](https://github.com/adxm7895/adrian-releases/discussions) or email **[info@adrianlabs.io](mailto:info@adrianlabs.io)** with what you were doing and what happened. Beta reports go straight to the people building Adrian.
 - **💸 Want to invest?** Adrian is open to investors — reach out at **[info@adrianlabs.io](mailto:info@adrianlabs.io)**.
 - **❤️ Want to support the project?** If Adrian is useful to you and you'd like to donate or chip in, get in touch at **[info@adrianlabs.io](mailto:info@adrianlabs.io)**.
 
